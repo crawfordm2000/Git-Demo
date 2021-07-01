@@ -75,5 +75,14 @@ git push -u origin master
 
 git push origin master
   *for all subsequent changes to remote branch
+  
+  git fetch
+  *pulls down all of the branches from the remote repository
+  *you can only merge from the branches fetched from a remote repo. You cannot change them directly. 
+
+git pull [alias] [branch]
+  *pulls down the branch being requested and merges it with your current branch.
+  *essentially a 'git fetch' and 'git merge' in one step. 
+
 
 
