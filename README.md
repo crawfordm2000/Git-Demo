@@ -84,5 +84,7 @@ git pull [alias] [branch]
   *pulls down the branch being requested and merges it with your current branch.
   *essentially a 'git fetch' and 'git merge' in one step. 
 
+git clone [url]
+  *to create a copy of a repo from a remote location.
 
 
